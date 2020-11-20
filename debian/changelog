@@ -1,10 +1,4 @@
-nvidia-prime (0.8.16) UNRELEASED; urgency=medium
-
-  * 
-
- -- Alberto Milone <alberto.milone@canonical.com>  Wed, 18 Nov 2020 15:08:30 +0100
-
-nvidia-prime (0.8.15) groovy; urgency=medium
+nvidia-prime (0.8.15.1~0.20.04.1) focal; urgency=medium
 
   [ Alberto Milone ]
   * prime-select:
@@ -12,10 +6,13 @@ nvidia-prime (0.8.15) groovy; urgency=medium
     - Disable workaround for on-demand mode.
     - Enable KMS if runtimepm is supported.
 
-  [ Kai-Heng Feng ]
-  * prime-select: Remove udev rules
+  [ Anthony Fok ]
+  * Remove obsolete udev rules during `postrm upgrade` too
 
- -- Alberto Milone <alberto.milone@canonical.com>  Fri, 09 Oct 2020 14:50:37 +0200
+  [ Kai-Heng Feng ]
+  * prime-select: Remove udev rules (LP: #1904583).
+
+ -- Alberto Milone <alberto.milone@canonical.com>  Fri, 20 Nov 2020 16:19:39 +0100
 
 nvidia-prime (0.8.14) focal; urgency=medium
 
